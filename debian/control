@@ -13,10 +13,11 @@ Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.ne
 Uploaders:
  Wolfgang Silbermayr <wolfgang@silbermayr.at>,
  Daniel Kahn Gillmor <dkg@fifthhorseman.net>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam-queue]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam-queue
 Homepage: https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-queue
+X-Cargo-Crate: crossbeam-queue
 Rules-Requires-Root: no
 
 Package: librust-crossbeam-queue-dev
@@ -43,11 +44,11 @@ Provides:
  librust-crossbeam-queue-0.3+default-dev (= ${binary:Version}),
  librust-crossbeam-queue-0.3+nightly-dev (= ${binary:Version}),
  librust-crossbeam-queue-0.3+std-dev (= ${binary:Version}),
- librust-crossbeam-queue-0.3.5-dev (= ${binary:Version}),
- librust-crossbeam-queue-0.3.5+alloc-dev (= ${binary:Version}),
- librust-crossbeam-queue-0.3.5+default-dev (= ${binary:Version}),
- librust-crossbeam-queue-0.3.5+nightly-dev (= ${binary:Version}),
- librust-crossbeam-queue-0.3.5+std-dev (= ${binary:Version})
+ librust-crossbeam-queue-0.3.8-dev (= ${binary:Version}),
+ librust-crossbeam-queue-0.3.8+alloc-dev (= ${binary:Version}),
+ librust-crossbeam-queue-0.3.8+default-dev (= ${binary:Version}),
+ librust-crossbeam-queue-0.3.8+nightly-dev (= ${binary:Version}),
+ librust-crossbeam-queue-0.3.8+std-dev (= ${binary:Version})
 Description: Concurrent queues - Rust source code
  This package contains the source for the Rust crossbeam-queue crate, packaged
  by debcargo for use with cargo and dh-cargo.
